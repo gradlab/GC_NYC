@@ -45,6 +45,14 @@ Assignments of each NYC isolate to the two main gonococcal lineages.
 
 ## scripts
 
+### shell
+
+Scripts to submit jobs to cluster for assembly and phylogenetic software.
+
+#### 2018-11-28_nyc_fastBAPS.R
+
+Script to perform fastBAPS analysis.
+
 #### Figure1_lineages_clustering.R
 
 Script to create figures 1B and 1C, including performing statistical test of association between patient sexual behavior and gonocococcal lineages.
@@ -64,6 +72,14 @@ Script to plot and perform statistical tests on differences in clustering and MI
 #### SupplementaryFigure3_multiple_samples.R
 
 Script to plot SNP distances between isolates from the same patient collected both at the same visit or at different visits.
+
+#### assignGenogroups.py
+
+Script to assign genogroups based on ngmaster output.
+
+#### find_connections.py	
+
+Script to find clusters based on a SNP distance threshold.
 
 #### mrca_clustering.R
 
